@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'nx-demo-text-emoji',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./text-emoji.component.css']
 })
 export class TextEmojiComponent implements OnInit {
+  @Input() text: string;
 
   constructor() { }
 

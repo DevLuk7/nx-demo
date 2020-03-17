@@ -4,6 +4,7 @@ import { TextEmojiComponent } from './text-emoji/text-emoji.component';
 
 @NgModule({
   imports: [CommonModule],
-  declarations: [TextEmojiComponent]
+  declarations: [TextEmojiComponent],
+  exports: [TextEmojiComponent]
 })
 export class TestLibModule {}
